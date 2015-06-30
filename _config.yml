@@ -4,7 +4,7 @@ server: true
 markdown: rdiscount
 permalink: /:categories/:title/
 email: info@teachosm.org
-baseurl: mapgive-in-a-box/
+baseurl: /mapgive-in-a-box
 columnist:
   paths:
   - _posts
