@@ -25,31 +25,36 @@ layout: default
 
 </div>
 
+<div class='marginL cell9 padAll'>
+  <form class='searchbox rounded'>
+    <span class='logo logo-search'></span>
+    <input id='search-field' type='text' name='search' class='default-value cell10'></input>
+  </form>
+</div>
+
 <div id='front' class='marginL cell9 padAll'>
   <div class='front-text cell7 marginR'>
     <h4 class='tagtitle'>{{ page.teachtitle }}</h4>
     <p class='tagwords'>{{ page.teachintro }}</p>
+
+    <h4 class='tagtitle'>{{ page.osmtitle }}</h4>
+    <p class='tagwords'>{{ page.osmintro }}</p>
   </div>
 
-<!--
-  <div class='cell4'>
+
+  <div class='cell3'>
     <ul>
       {% for post in site.categories.['cases'] reversed %}
-      {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}
+      {% if {{post.lang}} == {{page.lang}} and post.image %}{% unless post.hidden %}
         <li class='doc rounded'>
           <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
-        <span><img src="{{post.image}}"/> {{ post.title }}</span>
+        <span><img  class="cell12" src="{{site.baseurl}}/img/posts/{{post.image}}"/> {{ post.title }}</span>
         </a>
       </li>
       {% endunless %}{% endif %}
       {% endfor %}
     </ul>
 
-  </div>
--->
-  <div class='front-text cell7 marginR'>
-    <h4 class='tagtitle'>{{ page.osmtitle }}</h4>
-    <p class='tagwords'>{{ page.osmintro }}</p>
   </div>
 
 </div>
