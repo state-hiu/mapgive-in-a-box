@@ -12,5 +12,11 @@ nosearch: true
 published: true
 ---
 
-This guide is created and maintained by the 
-TeachOSM community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+# Credits and Contacts
+
+* how to get in touch and get involved
+* HIU
+* OSM Institutions
+* Others?
+* Connect directly with other state folks who have been through the MapGive process
+

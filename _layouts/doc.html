@@ -3,7 +3,7 @@ layout: default
 ---
 <div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
       
-  {% unless {{site.categories.[page.category].size}} == 1 %}
+  {% unless {{site.categories.[page.category].size}} == 0 %}
     <ul>
       {% for post in site.categories.[page.category] reversed %}
       {% if {{post.lang}} == {{page.lang}} %}{% unless post.hidden %}

@@ -3,7 +3,7 @@ pygments: true
 server: true
 markdown: rdiscount
 permalink: /:categories/:title/
-email: info@teachosm.org
+email: mapgive@state.gov
 baseurl: /mapgive-in-a-box
 columnist:
   paths:
@@ -15,7 +15,7 @@ prose:
 translations:
   en:
     tagline: "MapGive in a Box"
-    contribute: "Help improve our guides"
+    contribute: "Help improve the Box"
     trainingspan: "Are you a workshop organizer?"
     training: "Check out training material for this guide (in English)"
     feedbackspan: "Was this chapter helpful?"
