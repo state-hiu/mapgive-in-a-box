@@ -31,7 +31,8 @@
   </head>
   <body>
   <div id='wrapper'>
-    <div id='header' class='cell12'>
+    {% include main-nav.html %}
+<!--    <div id='header' class='cell12'>
       <div class='marginL cell9 padAll'>
         <div class='cell7 marginR'>
            <span><a href='{{site.baseurl}}/{{page.lang}}' class="logo logo-learn"></a></span>
@@ -43,7 +44,7 @@
         <a class='banner-mobile hide-desktop show-mobile' href='{{site.baseurl}}/{{page.lang}}/contribute/'>
         </a>
       </div>
-    </div>
+    </div>-->
     <div id='content' class='cf'>
         {{ content }}
     </div>
