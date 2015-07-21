@@ -1,10 +1,9 @@
 ---
 layout: doc
-permalink: /en/project-ideas/
+permalink: /en/process/ideas/
 lang: en
 title: Generate Ideas / Adapt to Context
-category: ideas
-cover: "yes"
+category: process
 published: true
 ---
 

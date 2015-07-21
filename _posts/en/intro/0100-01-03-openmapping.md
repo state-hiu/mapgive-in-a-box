@@ -7,6 +7,8 @@ category: intro
 published: true
 ---
 
+(Light introduction, embed videos, link to MapGive Site)
+
 # Intro to Mapping
 Introduce mapping. Link to MapGive intro materials. http://mapgive.state.gov/why-map/
 
