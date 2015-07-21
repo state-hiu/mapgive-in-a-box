@@ -2,10 +2,12 @@
 layout: doc
 permalink: /en/process/ideas/
 lang: en
-title: Generate Ideas / Adapt to Context
+title: Generate Mapping Ideas
 category: process
 published: true
 ---
+
+_still in edit_
 
 # What Can it Do for Your Challenges
 Suggestions on how to brainstorm, facilitate and generate ideas for mapping
@@ -20,3 +22,7 @@ Discussion of philosophy on open data.
 Partnerships and building a strong network around mapping is key. In fact, a major benefit of OSM is how easily it allows collaborations between different institutions, because the data is open.
 
 Emphasize that a project is one point along a process, and sustainability and opportunity should be built in. Especially with ongoing digital connections
+
+# developing a project
+
+type of features to collect, imagery needs? existing data?)
