@@ -14,3 +14,5 @@ TeachOSM as one MapGive supported resource and network for sustainability. Bring
 MapGive translations
 OpenCities Project Guide
 
+ hot protocol and training materials
+
