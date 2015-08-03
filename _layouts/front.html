@@ -33,7 +33,7 @@ layout: default
 </div>
 
 <div id='front' class='marginL cell9 padAll'>
-  <div class='front-text cell7 marginR'>
+  <div class='front-text cell8'>
     <h4 class='tagtitle'>{{ page.teachtitle }}</h4>
     <p class='tagwords'>{{ page.teachintro }}</p>
 
@@ -42,15 +42,12 @@ layout: default
   </div>
 
 
-  <div class='cell3'>
-    <ul>
+  <div class='cell4 case-ad'>
       {% for post in site.categories.['cases'] reversed %}
       {% if {{post.lang}} == {{page.lang}} and post.image %}{% unless post.hidden %}
-        <li class='doc rounded'>
-          <a class='title {% if {{post.cover}} %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
-        <span><img  class="cell12" src="{{site.baseurl}}/img/posts/{{post.image}}"/> {{ post.title }}</span>
+        <a href="{{site.baseurl}}{{ post.url }}">
+        <span class='ad-title'>Case Study: {{ post.title }}</span><span><img  class="cell12" src="{{site.baseurl}}/img/posts/{{post.image}}"/></span>
         </a>
-      </li>
       {% endunless %}{% endif %}
       {% endfor %}
     </ul>

@@ -16,3 +16,5 @@ OpenCities Project Guide
 
  hot protocol and training materials
 
+__add "Our Partners" section__ ??
+

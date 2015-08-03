@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/process/ideas/
 lang: en
-title: Generate Mapping Ideas
+title: Determine the Need
 category: process
 published: true
 ---
