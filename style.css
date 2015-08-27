@@ -319,8 +319,8 @@ body {
 #ads .ad1 a {height:180px; margin-right:20px; border-color: #9bcaff; border-width: 2px; border-style: solid; background-image: url("./img/banner.jpg"); font-size: 36px;/*color: #9bcaff;*/ font-weight: bold; text-shadow: 3px 3px 10px #693f41;}
 #ads .ad2 a {height:80px; background:#667766; margin-bottom:20px;}
 #ads .ad3 a {height:60px; background:#d73f3f;}
-.case-ad { margin-bottom: 20px; }
-.case-ad a { height: 375px; border-color: #9bcaff; color: #9bcaff; border-width: 2px; border-style: solid; font-weight: bold; font-size: 24px;}
+.case-ad { margin-bottom: 20px; float: right;}
+.case-ad a { height: 350px; border-color: #9bcaff; color: #9bcaff; border-width: 2px; border-style: solid; font-weight: bold; font-size: 24px;}
 .case-ad img { border: 0px; background: transparent; padding: 0px; margin: 0px ; }
   #ads .ad1 a:hover { opacity:0.8;}
   #ads .ad2 a:hover { opacity:0.8}

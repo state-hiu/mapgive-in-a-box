@@ -1,6 +1,14 @@
 ---
 layout: default
 ---
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//unslider.com/unslider.min.js"></script>
+<style>
+.slider { position: relative; overflow: auto; }
+    .slider li { list-style: none; }
+        .slider ul li { float: left; }
+</style>
+
 <div id='ads' class='marginL cell9 padAll'>
   <div class='ad1 cell8'>
     <a href='{{page.beglink}}'>
@@ -33,7 +41,7 @@ layout: default
 </div>
 
 <div id='front' class='marginL cell9 padAll'>
-  <div class='front-text cell8'>
+  <div class='front-text cell7'>
     <h4 class='tagtitle'>{{ page.teachtitle }}</h4>
     <p class='tagwords'>{{ page.teachintro }}</p>
 
@@ -41,15 +49,18 @@ layout: default
     <p class='tagwords'>{{ page.osmintro }}</p>
   </div>
 
-
-  <div class='cell4 case-ad'>
+  <div class='cell4 case-ad slider'>
+      <ul>
       {% for post in site.categories.['cases'] reversed %}
       {% if {{post.lang}} == {{page.lang}} and post.image %}{% unless post.hidden %}
+        <li>
         <a href="{{site.baseurl}}{{ post.url }}">
         <span class='ad-title'>Case Study: {{ post.title }}</span><span><img  class="cell12" src="{{site.baseurl}}/img/posts/{{post.image}}"/></span>
         </a>
+        </li>
       {% endunless %}{% endif %}
       {% endfor %}
+      </ul>
     </ul>
 
   </div>
@@ -67,5 +78,11 @@ var spanTitle = $('span.ad-title','#ads');
   if (titleHeight + txtHeight > adHeight) {
     titleSister.style.display = 'none'
   } 
+});
+</script>
+
+<script>
+$(function() {
+    $('.slider').unslider();
 });
 </script>
