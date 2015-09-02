@@ -309,7 +309,7 @@ body {
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
-  font-size: 14px;
+  font-size: 20px;
 }
 #ads a span:first-child {
   display:block;
@@ -1303,6 +1303,10 @@ a.license {
     padding: 0;
     display: block;
   }
+}
+
+.tagwords {
+  font-size: 20px;
 }
 
 .navbar-nav {

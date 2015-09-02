@@ -7,6 +7,8 @@ category: process
 published: true
 ---
 
+![WH Mapathon]({{site.baseurl}}/img/posts/whmapathon.jpg)
+
 Here are helpful tips for organizing an event, from recruiting participants, logistics on the day, to follow up. The suggestions here are summarized in the [event checklist]({{site.baseurl}}/en/resources/event-checklist/).
 
 Also, there are even more good ideas for <a href="http://education.nationalgeographic.com/media/file/HowTo_Event_Educators.pdf">event planning shared by National Geographic for Geography Awareness Week</a>, and the <a href="http://wiki.openstreetmap.org/wiki/Mapping_Weekend_Howto">OSM Mapping Weekend HOWTO</a>.

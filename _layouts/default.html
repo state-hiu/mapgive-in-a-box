@@ -31,7 +31,7 @@
   </head>
   <body>
   <div id='wrapper'>
-    {% include main-nav.html %}
+<!--    { include main-nav.html } -->
 <!--    <div id='header' class='cell12'>
       <div class='marginL cell9 padAll'>
         <div class='cell7 marginR'>
@@ -48,21 +48,12 @@
     <div id='content' class='cf'>
         {{ content }}
     </div>
-    
-    <div id='footer' class='fillG cell12'>
-      {% include footer.html %}
 
-<!--      <ul class='contact marginL marginR cell5 padAll'>
-        <li><a class='email' href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li><a class='twitter' href="https://twitter.com/mapgive">@mapgive</a></li>
-        <li><a class='github' href='https://github.com/USStateDept/mapgive-in-a-box'> Hosted on Github</a></li>
-        <li><a class='' href='{{site.baseurl}}/{{page.lang}}/contribute/'>Contributors</a></li>
-      </ul>
-      <a rel="license" class="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-      	<img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
-      </a>
--->
+<!--
+    <div id='footer' class='fillG cell12'>
+      { include footer.html }
     </div>
+-->
   </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -70,7 +61,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-56752719-1', 'auto');
+  ga('create', 'UA-47013923-1', 'auto');
   ga('send', 'pageview');
 
 </script>
