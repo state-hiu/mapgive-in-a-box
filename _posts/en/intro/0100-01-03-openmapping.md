@@ -15,7 +15,7 @@ Learn more [About Open Mapping](http://mapgive.state.gov/about-open-mapping/) an
 
 # MapGive Capabilities
 
-The MapGive program provides a number of capabilities to assist Posts in public diplomacy through Open Mapping, and support the OpenStreetMap community. 
+The [MapGive](http://mapgive.state.gov/) program provides a number of capabilities to assist Posts in public diplomacy through Open Mapping, and support the OpenStreetMap community. 
 
 * Fill gaps in satellite imagery through Imagery to the Crowd. 
 * Share knowledge in event organization.

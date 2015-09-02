@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/process/event-planning
 lang: en
-title: Event Planning Guide
+title: Plan an Event
 category: process
 published: true
 ---
