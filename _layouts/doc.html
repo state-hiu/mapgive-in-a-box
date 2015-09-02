@@ -50,7 +50,7 @@ layout: default
     <span>{{site.translations.[page.lang].feedbackspan}}</span>
     <a href='{{site.baseurl}}/{{page.lang}}/contribute'>{{site.translations.[page.lang].feedback}}</a>
   </div>
-  {% endunless %}
+  {% endunless %} 
 </div>
 
 <script>
@@ -78,7 +78,7 @@ layout: default
   $('img').parent().addClass('has-image');
   
   // make title nav sticky
-  {% unless {{page.cover}} %} // excluding cover pages
+  
   $(document).ready(function(){
   	var nav = $('.doc-nav'),
       	navTop = nav.offset().top,
@@ -107,7 +107,6 @@ layout: default
     	}
   	});
   });
-  {% endunless %}
 
   // get the second url of doc nav and make it the url of the 'proceed' link
   var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');

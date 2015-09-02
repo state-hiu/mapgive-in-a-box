@@ -48,8 +48,11 @@
     <div id='content' class='cf'>
         {{ content }}
     </div>
-    <small id='footer' class='fillG cell12'>
-      <ul class='contact marginL marginR cell5 padAll'>
+    
+    <div id='footer' class='fillG cell12'>
+      {% include footer.html %}
+
+<!--      <ul class='contact marginL marginR cell5 padAll'>
         <li><a class='email' href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         <li><a class='twitter' href="https://twitter.com/mapgive">@mapgive</a></li>
         <li><a class='github' href='https://github.com/USStateDept/mapgive-in-a-box'> Hosted on Github</a></li>
@@ -58,7 +61,8 @@
       <a rel="license" class="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
       	<img src="http://i.creativecommons.org/p/zero/1.0/80x15.png" alt="CC0" />
       </a>
-    </small>
+-->
+    </div>
   </div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

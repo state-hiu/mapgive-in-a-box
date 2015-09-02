@@ -16,5 +16,7 @@ OpenCities Project Guide
 
  hot protocol and training materials
 
+link to MapGive Field Project materials
+
 __add "Our Partners" section__ ??
 

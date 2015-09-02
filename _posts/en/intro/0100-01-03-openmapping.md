@@ -32,4 +32,6 @@ There are two main kinds of MapGive engagements.
 
 **Field Projects** are typically more intensive activities, where the focus is on surveying and data collection in the field. There are limits to how much can be mapped from sitting and looking at satellite imagery. Tools employed range from GPS units to mobile phone apps to paper. Field projects will take much more investment in logistics and training, but the result will be data of much greater depth, accuracy and local knowledge.
 
-_link to cases/ ?_
+# Get Started 
+
+From here, it can be very helpful to read about how MapGive has been implemented in [Case Studies]({{site.baseurl}}/en/cases/).

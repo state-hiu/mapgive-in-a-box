@@ -4,7 +4,7 @@ permalink: /en/intro/exec-summary/
 lang: en
 title: Executive Summary
 category: intro
-published: true
+published: false
 ---
 
 (make essentially a one pager for leadership)
