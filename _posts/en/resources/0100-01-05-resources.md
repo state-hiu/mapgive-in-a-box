@@ -22,6 +22,7 @@ The [session plan from Connect Camps Maps](http://mapgive.state.gov/events/conne
 
 The [HOT Activation Protocol](http://hotosm.org/sites/default/files/HOTActivationProtocol.pdf) describes the flow of activities and roles involved in working with OpenStreetMap during a disaster response.
 
+# MapGive Partners
 
 ![Partners]({{site.baseurl}}/img/posts/partners.jpg)
 
