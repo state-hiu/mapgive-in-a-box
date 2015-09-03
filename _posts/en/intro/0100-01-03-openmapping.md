@@ -13,7 +13,7 @@ Learn more [About Open Mapping](http://mapgive.state.gov/about-open-mapping/) an
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/C175zW8-6j8" frameborder="0" allowfullscreen></iframe>
 
-# MapGive Capabilities
+## MapGive Capabilities
 
 The [MapGive](http://mapgive.state.gov/) program provides a number of capabilities to assist Posts in public diplomacy through Open Mapping, and support the OpenStreetMap community. 
 
@@ -24,7 +24,7 @@ The [MapGive](http://mapgive.state.gov/) program provides a number of capabiliti
 
 Learn more in [Process from Start to Finish]({{site.baseurl}}/en/process).
 
-# Types of MapGive Engagements
+## Types of MapGive Engagements
 
 There are two main kinds of MapGive engagements. 
 
@@ -32,6 +32,6 @@ There are two main kinds of MapGive engagements.
 
 **Field Projects** are typically more intensive activities, where the focus is on surveying and data collection in the field. There are limits to how much can be mapped from sitting and looking at satellite imagery. Tools employed range from GPS units to mobile phone apps to paper. Field projects will take much more investment in logistics and training, but the result will be data of much greater depth, accuracy and local knowledge.
 
-# Get Started 
+## Get Started 
 
 From here, it can be very helpful to read about how MapGive has been implemented in [Case Studies]({{site.baseurl}}/en/cases/).

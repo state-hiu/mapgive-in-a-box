@@ -9,7 +9,7 @@ published: true
 
 Checklist to help in the preperation, on the day, and follow up to your event:
 
-# Task
+## Task
 
 * Pick the mapathon-specific tasks
 * Check the overall imagery quality
@@ -24,7 +24,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Before metrics
   * Extract OSM data
 
-# Venue
+## Venue
 
 * Book in advance, consider:
   * Time
@@ -39,7 +39,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Does the venue have computers? If not, encourage everyone to bring laptops and mice
 * Know who to contact in advance in case of IT issues
 
-# Logistics
+## Logistics
 
 * Power strips
 * Chairs
@@ -57,7 +57,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Food/Drink
 * Cups, Plates, Utensils, Napkins
 
-#Pre event Outreach
+## Pre event Outreach
 
 * Coordinate with potential partners
 * MeetUp
@@ -72,7 +72,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Consider sending partners social media toolkit
 * Send a friendly event reminder
 
-# During the event
+## During the event
 
 * Show the ”Why Map?” video
 * Gauge the room’s experience
@@ -81,7 +81,7 @@ Checklist to help in the preperation, on the day, and follow up to your event:
 * Take pictures!
 * Check in with mappers throughout the event
 
-# Post event
+## Post event
 
 * Thank everyone for attending!
 * (Are there related events in the area? Point them out!)
