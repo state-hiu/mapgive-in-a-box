@@ -326,11 +326,13 @@ body {
 .language-switcher {
   padding:6px 20px;
   }
+
   .language-switcher a.active {
     color: #328cac;
     text-decoration: none;
     cursor: default;
     }
+
 #header {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;
