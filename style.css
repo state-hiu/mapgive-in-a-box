@@ -472,7 +472,7 @@ body {
 .no-svg .play-button,
 .no-svg .steps .estimate .clock,
 .no-svg .social li {
-  background-image: url("../mapgive-in-a-box/img/sprite_mapgive2.png");
+  background-image: url("./img/sprite_mapgive2.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -532,7 +532,7 @@ a.license {
 #footer::before {
   content: "";
   display: block;
-  background: url("../mapgive-in-a-box/img/world-map.png") 50% 50% no-repeat;
+  background: url("./img/world-map.png") 50% 50% no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
