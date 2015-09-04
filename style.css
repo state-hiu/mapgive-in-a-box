@@ -431,7 +431,7 @@ body {
 .svg .play-button,
 .svg .steps .estimate .clock,
 .svg .social li {
-  background-image: url("../mapgive-in-a-box/img/sprite_mapgive.svg");
+  background-image: url("./img/sprite_mapgive.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 366px 208px;
