@@ -14,6 +14,7 @@
 .cell10 { float:left; width:83.3333%; }
 .cell11 { float:left; width:91.6666%; }
 .cell12 { float:left; width:100.0000%; }
+.footercell { float:left; width:75%; }
 .right {float:right;}
 .left {float:left;}
 
@@ -69,8 +70,17 @@ border-radius: 4px;
 .site-logo {
   font-family: "Trebuchet MS", Arial, sans-serif;
   text-transform: uppercase;
-  color: #ffffff;
 }
+
+.site-logo.footer-text {
+  font-size: 30px;
+  padding: 29px 41px;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.1;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 
   .site-tagline {
     color: white;
@@ -297,7 +307,7 @@ body {
   position:relative;
 }
 #content {
-  padding-bottom:180px;
+  padding-bottom:20px;
   clear: both;
 }
 
@@ -309,7 +319,7 @@ body {
 #footer {
   width:100%;
   position:absolute;
-  padding-top:30px;
+  padding-top:0px;
   bottom:0;
   left:0;
 }
@@ -415,6 +425,7 @@ body {
 .svg .hot,
 .svg .dos,
 .m-logo,
+.f-logo,
 .svg .play-button,
 .svg .steps .estimate .clock,
 .svg .social li {
@@ -433,6 +444,46 @@ body {
   margin: 0 3px;
   position: relative;
   top: 0.16666666666667em; /* 3/36 */
+}
+
+.footer-flag-seal,
+.mission-flag-seal,
+.opera-mini .globe,
+.opera-mini .marker,
+.opera-mini .map,
+.opera-mini .media-object .osm,
+.opera-mini .hot,
+.opera-mini .dos,
+.opera-mini .brand .logo,
+.opera-mini .footer-title .logo,
+.opera-mini .play-button,
+.opera-mini .steps .estimate .clock,
+.opera-mini .social li,
+.no-svg .globe,
+.no-svg .marker,
+.no-svg .map,
+.no-svg .osm,
+.no-svg .hot,
+.no-svg .dos,
+.no-svg .brand .logo,
+.no-svg .footer-title .logo,
+.no-svg .play-button,
+.no-svg .steps .estimate .clock,
+.no-svg .social li {
+  background-image: url("../mapgive-in-a-box/img/sprite_mapgive2.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.opera-mini .footer-title .logo,
+.no-svg .footer-title .logo {
+  background-position: -225px -317px;
+  width: 23px;
+  height: 35px;
+  display: inline-block;
+  margin: 0 3px;
+  position: relative;
+  top: 5px;
 }
 
   .logo-learn {
@@ -467,6 +518,114 @@ a.license {
   position:absolute;
   left:360px;
   }
+
+/******** Footer ********/
+
+#footer {
+  background-color: #bcbcbc;
+  border-top: 10px solid #52504d;
+  position: relative;
+}
+
+#footer::before {
+  content: "";
+  display: block;
+  background: url("../mapgive-in-a-box/img/world-map.png") 50% 50% no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.15;
+}
+
+#footer ul {
+  list-style-type: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+#footer .social {
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
+
+.footer-nav {
+  overflow: hidden;
+}
+
+.footer-nav li {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: .9em;
+}
+
+.footer-nav > .first {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.footer-nav > .last {
+  padding-right: 0;
+}
+
+.footer-nav ul li {
+  font-size: 1em;
+}
+
+.footer-nav ul  .first {
+  margin-top: 15px;
+}
+
+#footer .legal {
+  padding: 10px 0;
+  margin: 0;
+}
+
+#footer .legal a {
+  font-size: .8em;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+#footer .legal > div {
+  padding: 0;
+}
+
+#footer a {
+  color: #444;
+}
+
+.hiu-logo {
+  background-position: 0 -103px;
+  display: inline-block;
+  float: right;
+  margin-left: 23px;
+  margin-right: 1px;
+  margin-top: 12px;
+  opacity: .75;
+  width: 135px;
+  background: none;
+  border: none;
+}
+
+.hiu-logo:hover {
+  background: none;
+}
+
+.f-logo {
+  background-position: -2em -1.16666666666667em; /* -72/36 -42/36 */
+  background-size: 4.05555555555556em 2.30555555555556em; /* 146/36 83/36 */
+  width: 0.80555555555556em; /* 29/36 */
+  height: 1.20833333333333em; /* 43.5/36 */
+  display: inline-block;
+  margin: 0 3px;
+  position: relative;
+  top: 0.16666666666667em; /* 3/36 */
+}
+
 /* overriding default jquery ui css for autocomplete */
 .ui-corner-all {
   -moz-border-radius:   0px !important;
@@ -1298,6 +1457,16 @@ a.license {
     bottom: 6px;
     margin: 0 0 0 0px;
   }
+
+.footer-flag-seal {
+    background-position: 0 -102px;
+    width: 136px;
+    height: 49px;
+    display: inline-block;
+    float: right;
+    margin-top: 25px;
+  }
+
 }
 
 /***** Main Nav End *****/
