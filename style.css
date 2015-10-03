@@ -74,11 +74,12 @@ border-radius: 4px;
 
 .site-logo.footer-text {
   font-size: 30px;
-  padding: 29px 41px;
+  padding: 29px 23px;
   display: inline-block;
-  font-weight: 500;
+  font-weight: normal;
   line-height: 1.1;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #51504d;
 }
 
 
@@ -1481,7 +1482,7 @@ a.license {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 43px;
+  padding-left: 25px;
   padding-right: 15px;
   margin-left: 08.3333%;
 }
@@ -1516,11 +1517,11 @@ a.license {
   }
 @media (min-width: 992px) {
   .container {
-    width: 75.0000%;
+    width: 76.2000%;
   }
 @media (min-width: 1200px) {
   .container {
-    width: 75.0000%;
+    width: 76.2000%;
   }
 .container > .navbar-header,
 .container > .navbar-collapse {
